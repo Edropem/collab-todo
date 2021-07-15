@@ -1,0 +1,51 @@
+{
+  "name": "collab-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edropem/collab-todo.git"
+  },
+  "author": "Pedro Escuredo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edropem/collab-todo/issues"
+  },
+  "homepage": "https://github.com/Edropem/collab-todo#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.12",
+    "@types/express-session": "^1.17.3",
+    "@types/node": "^15.12.1",
+    "@types/uuid": "^8.3.0",
+    "@types/morgan": "^1.9.2",
+    "@types/validator": "^13.1.3",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.7",
+    "morgan": "^1.10.0",
+    "prettier": "^2.3.1",
+    "sequelize-cli": "^6.2.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-ts": "^5.1.1",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2",
+    "uuid": "^8.3.2",
+    "xmldom": "^0.6.0"
+  }
+}
